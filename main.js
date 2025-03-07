@@ -21,7 +21,7 @@ let intervaloId = null
 musica.loop = true
 musica.currentTime = 10
 
-var som = parseInt(prompt("Qual volume você quer ? "))
+var som = parseFloat(prompt("Qual volume você quer ? "))
 
 
 
