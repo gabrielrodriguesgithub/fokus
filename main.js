@@ -20,7 +20,14 @@ let intervaloId = null
 
 musica.loop = true
 musica.currentTime = 10
-musica.volume = 1
+
+var som = parseInt(alert("Qual volume você quer ? "))
+
+
+
+musica.volume = som;
+
+
 musicaInput.addEventListener('change', () => {
     if(musica.paused){
         musica.play()
